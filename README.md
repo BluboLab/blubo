@@ -7,7 +7,13 @@
 ```
 git clone https://github.com/BluboLab/blubo.git
 ```
-2. After the installation is complete, you must set the file as an executable. Open terminal and run the following code:
+2. Update your Raspberry:
+```
+sudo apt-get update
+
+sudo apt-get upgrade
+```  
+3. After the installation is complete, you must set the file as an executable. Open terminal and run the following code:
 ````
 cd blubo
 
@@ -17,4 +23,4 @@ chmod +x blubo-setup.sh
 
 ./blubo-setup.sh
 ````
-3. Follow the instructions in the script.
+4. Follow the instructions in the script.
