@@ -3,7 +3,7 @@
 
 ## How to setup:
 
-1. On a clean installation of Raspbian 11 Bullseye, install Git and download the repo:
+1. On a clean installation of Raspbian 11 Bullseye, download the repo:
 ```
 git clone https://github.com/BluboLab/blubo.git
 ```
@@ -13,7 +13,7 @@ sudo apt-get update
 
 sudo apt-get upgrade
 ```  
-3. After the installation is complete, you must set the file as an executable. Open terminal and run the following code:
+3. Finally, you must set the file as an executable. Open terminal and run the following code:
 ````
 cd blubo
 
