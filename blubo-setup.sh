@@ -165,7 +165,8 @@ sudo systemctl start mainpy.service
 
 # Verificar el estado del servicio
 echo "Verificando el estado del servicio..."
-sudo systemctl status mainpy.service
+sudo systemctl status mainpy.service --no-pager | head -n 15
+sleep 3
 
 # --- Configuración inicial del RTC ---
 echo "Configurando el RTC (ds1307)..."
