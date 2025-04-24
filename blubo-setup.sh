@@ -8,6 +8,10 @@ sudo apt-get update
 echo "Actualizando los paquetes..."
 sudo apt-get upgrade -y
 
+# Actualizar pip antes de instalar cualquier paquete Python
+echo "Actualizando pip..."
+sudo pip3 install --upgrade pip
+
 # Instalación de Git
 echo "Instalando Git..."
 sudo apt-get install git -y
