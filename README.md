@@ -11,6 +11,8 @@ git clone https://github.com/BluboLab/blubo.git
 ````
 cd blubo
 
+dos2unix blubo-setup.sh
+
 chmod +x blubo-setup.sh
 
 ./blubo-setup.sh
