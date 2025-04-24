@@ -1,9 +1,9 @@
 # BLUBO
-"Blubo" is an advanced sensor for monitoring light pollution in various environments, using Hamamatsu S2386-5K photodiodes and custom transimpedance amplifiers to measure sky brightness. Essential for environmental research and crafting sustainable lighting policies.
+"Blubo" is an advanced sensor for monitoring light pollution in various environments, using Hamamatsu S2386-5K photodiodes, custom transimpedance amplifiers to measure sky brightness and Raspberry Pi Zero 2W. Essential for environmental research and crafting sustainable lighting policies.
 
 ## How to setup:
 
-1. On a clean installation of Raspbian 11 Bullseye, download the repo:
+1. On a clean installation of Raspbian 11 Bullseye (Legacy, 32-bits), download the repo:
 ```
 git clone https://github.com/BluboLab/blubo.git
 ```
