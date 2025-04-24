@@ -63,7 +63,7 @@ sudo systemctl start pigpiod
 
 # Clonar el repositorio para el Access Point
 echo "Clonando el repositorio wifi-connect-headless-rpi..."
-git clone https://github.com/drkmsmithjr/wifi-connect-headless-rpi.git
+git clone https://github.com/hpaos/wifi-connect-headless-rpi.git
 
 # Cambiar al directorio del script
 echo "Accediendo al directorio del script..."
