@@ -121,7 +121,7 @@ echo "Configurando autoejecución de main.py al inicio..."
 
 # Detectar el directorio del usuario
 USER_DIR=$(ls /home | grep blubo[0-9]*)
-MAIN_PY_PATH="/home/$USER_DIR/blubo/V3/main.py"
+MAIN_PY_PATH="/home/$USER_DIR/blubo/main.py"
 
 # Verificar si el archivo main.py existe
 if [ ! -f "$MAIN_PY_PATH" ]; then
@@ -139,7 +139,7 @@ After=network.target
 
 [Service]
 ExecStart=/usr/bin/python3 $MAIN_PY_PATH
-WorkingDirectory=/home/$USER_DIR/blubo/V3
+WorkingDirectory=/home/$USER_DIR/blubo
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
